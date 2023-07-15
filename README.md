@@ -163,9 +163,7 @@ The code performs the following steps:
 
    rf = RandomForestClassifier(n_estimators=270, min_samples_split=5, min_samples_leaf=5,
                                 max_features='sqrt', max_depth=5)
-   rf.fit(X, y
-
-)
+   rf.fit(X, y)
    ```
 
 8. Save the trained model:
